@@ -1,7 +1,7 @@
 "use client"
-import Layout from "../components/Layout"
-import Header from "../components/Header"
-import Footer from "../components/Footer"
+import Layout from "../../components/Layout.js"
+import Header from "../../components/Header"
+import Footer from "../../components/Footer"
 import { Container } from "react-bootstrap"
 
 const Page = () => {

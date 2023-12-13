@@ -5,13 +5,14 @@ import Footer from "../components/Footer"
 import { Container } from "react-bootstrap"
 
 const Page = () => {
+
   return <Layout
     makeHeader={() => <Header />}
     makeBody={
       () => <div>
         <h4>ChongApi</h4>
         <Container style={{ alignContent: "center", marginTop: "2%" }}>
-          
+
         </Container>
       </div>
     }

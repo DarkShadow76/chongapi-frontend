@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Club Rouge",
+    "location": "123 Main St, New York, NY",
+    "description": "Upscale lounge with dance music and full bar in an elegant space with VIP areas.",
+    "capacity": 250,
+    "opening_hours": {
+      "monday": "9pm-4am",
+      "tuesday": "9pm-4am",
+      "wednesday": "9pm-4am",
+      "thursday": "10pm-4am",
+      "friday": "10pm-5am",
+      "saturday": "10pm-5am",
+      "sunday": "Closed"
+    }
+  },
+  {
+    "name": "Cube",
+    "location": "456 Park Ave, Miami, FL",
+    "description": "Hip hop club with resident and guest DJs spinning latest hits. Casual atmosphere.",
+    "capacity": 350,
+    "opening_hours": {
+      "monday": "Closed",
+      "tuesday": "10pm-3am",
+      "wednesday": "10pm-3am",
+      "thursday": "10pm-4am",
+      "friday": "11pm-5am",
+      "saturday": "11pm-5am",
+      "sunday": "Closed"
+    }
+  },
+  {
+    "name": "Cherry Lounge",
+    "location": "789 Beach Rd, Los Angeles, CA",
+    "description": "Intimate cocktail lounge with dance floor, full bar menu and weekly DJ events.",
+    "capacity": 150,
+    "opening_hours": {
+      "monday": "7pm-2am",
+      "tuesday": "7pm-2am",
+      "wednesday": "7pm-2am",
+      "thursday": "7pm-3am",
+      "friday": "8pm-3am",
+      "saturday": "8pm-3am",
+      "sunday": "8pm-1am"
+    }
+  }
+]

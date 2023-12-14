@@ -4,19 +4,19 @@ import { Nav, Navbar, Container, NavDropdown } from "react-bootstrap";
 const Header = (props) => {
   return (
     <>
-      <Navbar expand="sm" className="bg-body-tertiary Navbar" bg="dark" fixed="top">
-        <Container className="container-nav" fluid>
+      <Navbar expand="sm" className="bg-body-tertiary Navbar" bg="dark" variant="dark" fixed="top">
+        <Container className="container-nav">
+          <Navbar.Brand href="/">ChongApi</Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav className="me-auto my-2 my-lg-0" navbarScroll>
-              <Navbar.Brand href="/" style={{ color: "white" }}>ChongApi</Navbar.Brand>
-              <Nav.Link href="/" className="textColor" style={{ color: "white" }}>Home</Nav.Link>
-              <Nav.Link href="/about" style={{ color: "white" }}>About</Nav.Link>
-              <Nav.Link href="#" className="nav-item active" style={{ color: "white" }} disabled>Support
+              <Nav.Link href="/">Home</Nav.Link>
+              <Nav.Link href="/about">About</Nav.Link>
+              <Nav.Link href="#" className="nav-item active" disabled>Support
               </Nav.Link>
-              <Nav.Link href="#" style={{ color: "white" }}>Review
+              <Nav.Link href="#">Review
               </Nav.Link>
-              <NavDropdown title="Servicios" id="nav-dropdown">
+              <NavDropdown title="Servicios" id="nav-dropdown" menuVariant="dark">
                 <NavDropdown.Item href="#action3" >
                   Ofertas
                 </NavDropdown.Item>

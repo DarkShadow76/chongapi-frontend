@@ -2,18 +2,20 @@
 import Layout from "@/components/Layout"
 import Header from "@/components/Header"
 import Footer from "@/components/Footer"
-import Entitys from "@/components/Entitys"
 import { Container } from "react-bootstrap"
 
-const Page = () => {
+const Page = ({ params }) => {
 
   return <Layout
-    makeHeader={() => <Header titulo="Locales"/>}
+    makeHeader={() => <Header titulo={`Pagina Local ${params.id}`} />}
     makeBody={
       () => <div>
-        <h4>ChongApi</h4>
+        <h4>Descripcion</h4>
+        <h3>Hubicacion</h3>
         <Container style={{ alignContent: "center", marginTop: "1rem" }}>
-          <Entitys/>
+          <h3>Alineacion de hoy</h3>
+          <li>Claudia - #32</li>
+          <li>Camila - #28</li>
         </Container>
       </div>
     }

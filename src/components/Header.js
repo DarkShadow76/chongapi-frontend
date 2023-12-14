@@ -24,7 +24,7 @@ const Header = (props) => {
             <Nav className="me-auto my-2 my-lg-0" navbarScroll>
               <Nav.Link href="/" onClick={() => handleNavClick("home")}>Home</Nav.Link>
               <Nav.Link href="/about" onClick={() => handleNavClick("about")}>About</Nav.Link>
-              <Nav.Link href="/support" onClick={() => handleNavClick("support")}>Support
+              <Nav.Link href="/local" onClick={() => handleNavClick("Locales")}>Locales
               </Nav.Link>
               <Nav.Link href="/review" onClick={() => handleNavClick("review")}>Review
               </Nav.Link>

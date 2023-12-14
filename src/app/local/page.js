@@ -8,10 +8,9 @@ import { Container } from "react-bootstrap"
 const Page = () => {
 
   return <Layout
-    makeHeader={() => <Header titulo="Locales"/>}
+    makeHeader={() => <Header titulo="Lista Locales"/>}
     makeBody={
       () => <div>
-        <h4>ChongApi</h4>
         <Container style={{ alignContent: "center", marginTop: "1rem" }}>
           <Entitys/>
         </Container>

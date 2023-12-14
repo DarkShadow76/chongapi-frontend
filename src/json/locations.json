@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "name": "Club Rouge",
     "location": "123 Main St, New York, NY",
     "description": "Upscale lounge with dance music and full bar in an elegant space with VIP areas.",
@@ -15,6 +16,7 @@
     }
   },
   {
+    "id": 2,
     "name": "Cube",
     "location": "456 Park Ave, Miami, FL",
     "description": "Hip hop club with resident and guest DJs spinning latest hits. Casual atmosphere.",
@@ -30,6 +32,7 @@
     }
   },
   {
+    "id": 3,
     "name": "Cherry Lounge",
     "location": "789 Beach Rd, Los Angeles, CA",
     "description": "Intimate cocktail lounge with dance floor, full bar menu and weekly DJ events.",

@@ -1,4 +1,3 @@
-"use client"
 import React, { useState } from "react";
 import { Nav, Navbar, Container, NavDropdown } from "react-bootstrap";
 

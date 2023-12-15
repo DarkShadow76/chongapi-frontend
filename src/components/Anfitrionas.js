@@ -4,8 +4,11 @@ import Col from 'react-bootstrap/Col';
 import data from '@/json/locations.json'
 
 const Anfitrionas = (props) => {
+
+  // Esto No funciona Solucionar a la brevedad
   const id = props.id
 
+  /** No recibe la id correctamente */
   const club = data.find((club) => club.id === id);
 
   if (!club) {
@@ -13,6 +16,7 @@ const Anfitrionas = (props) => {
   }
 
   const anfitrionas = club['anfitrionas'];
+  //
 
   return (
     <Container>

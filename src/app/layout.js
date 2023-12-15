@@ -2,6 +2,8 @@
 // import './globals.css'
 
 // const montserrat = Montserrat({ subsets: ['latin'] })
+import Footer from "@/components/Footer"
+import Header from "@/components/Header"
 
 export const metadata = {
   title: 'ChongAPI',
@@ -26,7 +28,9 @@ export default function RootLayout({ children }) {
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
       <body className="gradient" style={{
       }}>
+        <Header/>
         {children}
+        <Footer/>
       </body>
     </html >
   )

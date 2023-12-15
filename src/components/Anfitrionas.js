@@ -9,10 +9,11 @@ const Anfitrionas = (props) => {
   const id = props.id
 
   /** No recibe la id correctamente */
-  const club = data.find((club) => club.id === id);
+  const local = data['locales'].find((locales) => locales.id === id);
+  const localtest = data['locales'][1].alias
 
-  if (!club) {
-    return <div>Club no encontrado: {props.id}</div>;
+  if (!local) {
+    return <div>Club no encontrado: {props.id} {localtest}</div>;
   }
 
   const anfitrionas = club['anfitrionas'];

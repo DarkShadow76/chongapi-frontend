@@ -9,7 +9,7 @@ const Entitys = (props) => {
   return (
     <Container>
       <Row>
-        {data.map(item => (
+        {data['locales'].map(item => (
           <Col xs={12} md={4}>
             <Card border='light' key={item.id} bg="dark" text="light" style={{ width: '18rem' }} className="mb-2">
               <Link href={`/local/${item.id}`}>

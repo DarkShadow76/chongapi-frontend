@@ -1,122 +1,124 @@
-[
-  {
-    "id": 1,
-    "name": "Sexy Geishas",
-    "location": "123 Main St, New York, NY",
-    "description": "Upscale lounge with dance music and full bar in an elegant space with VIP areas.",
-    "image_link" : "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.iconscout.com%2Ficon%2Ffree%2Fpng-256%2Fbuilding-1741335-1484597.png&f=1&nofb=1&ipt=5fbcaba7a790005952edbb73de0bd194929424855e2d2b6e405044358766d35c&ipo=images",
-    "capacity": 250,
-    "anfitrionas": [
-      {"id": 1, "alias": "Jennifer", "nacionalidad": "Colombiana"},
-      {"id": 2, "alias": "Alejandra", "nacionalidad": "Ecuatoriana"},
-      {"id": 3, "alias": "Karen", "nacionalidad": "Peruana"},
-      {"id": 4, "alias": "Patricia", "nacionalidad": "Peruana"},
-      {"id": 5, "alias": "Luisa", "nacionalidad": "Venezolana"},
-      {"id": 6, "alias": "Antonela", "nacionalidad": "Argentina"},
-      {"id": 7, "alias": "Daniela", "nacionalidad": "Venezolana"},
-      {"id": 8, "alias": "Carolina", "nacionalidad": "Colombiana"},
-      {"id": 9, "alias": "Laura", "nacionalidad": "Ecuatoriana"},
-      {"id": 10, "alias": "Sofia", "nacionalidad": "Brasilera"}
-    ]
-  },
-  {
-    "id": 2,
-    "name": "La Colmena",
-    "location": "456 Park Ave, Miami, FL",
-    "description": "Hip hop club with resident and guest DJs spinning latest hits. Casual atmosphere.",
-    "image_link" : "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.iconscout.com%2Ficon%2Ffree%2Fpng-256%2Fbuilding-1741335-1484597.png&f=1&nofb=1&ipt=5fbcaba7a790005952edbb73de0bd194929424855e2d2b6e405044358766d35c&ipo=images",
-    "capacity": 350,
-    "anfitrionas": [
-      {"id": 11, "alias": "Valentina", "nacionalidad": "Mexicana"},
-      {"id": 12, "alias": "Gabriela", "nacionalidad": "Mexicana"},
-      {"id": 13, "alias": "Michelle", "nacionalidad": "Colombiana"},
-      {"id": 14, "alias": "Elisa", "nacionalidad": "Peruana"},
-      {"id": 15, "alias": "Monica", "nacionalidad": "Ecuatoriana"},
-      {"id": 16, "alias": "Daniella", "nacionalidad": "Brasilera"}, 
-      {"id": 17, "alias": "Juliana", "nacionalidad": "Argentina"},
-      {"id": 18, "alias": "Andrea", "nacionalidad": "Venezolana"},
-      {"id": 19, "alias": "Cristina", "nacionalidad": "Peruana"},
-      {"id": 20, "alias": "Paola", "nacionalidad": "Peruana"} 
-    ]
-  },
-  {
-    "id": 3,
-    "name": "Molino Rojo",
-    "location": "789 Beach Rd, Los Angeles, CA",
-    "description": "Intimate cocktail lounge with dance floor, full bar menu and weekly DJ events.",
-    "image_link" : "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.iconscout.com%2Ficon%2Ffree%2Fpng-256%2Fbuilding-1741335-1484597.png&f=1&nofb=1&ipt=5fbcaba7a790005952edbb73de0bd194929424855e2d2b6e405044358766d35c&ipo=images",
-    "capacity": 150,
-    "anfitrionas": [
-      {"id": 21, "alias": "Juana", "nacionalidad": "Ecuatoriana"},
-      {"id": 22, "alias": "Lucía", "nacionalidad": "Colombiana"},
-      {"id": 23, "alias": "Susana", "nacionalidad": "Argentina"},
-      {"id": 24, "alias": "Daniella", "nacionalidad": "Brasileña"},
-      {"id": 25, "alias": "Monserrat", "nacionalidad": "Peruana"},
-      {"id": 26, "alias": "Cindy", "nacionalidad": "Ecuatoriana"},
-      {"id": 27, "alias": "Victoria", "nacionalidad": "Venezolana"},
-      {"id": 28, "alias": "Luisa", "nacionalidad": "Colombiana"},
-      {"id": 29, "alias": "Camila", "nacionalidad": "Peruana"},
-      {"id": 30, "alias": "Carmen", "nacionalidad": "Ecuatoriana"} 
-    ]
-  },
-  {
-    "id": 4,
-    "name": "Las Sirenas",
-    "location": "789 Beach Rd, Los Angeles, CA",
-    "description": "Intimate cocktail lounge with dance floor, full bar menu and weekly DJ events.",
-    "image_link" : "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.iconscout.com%2Ficon%2Ffree%2Fpng-256%2Fbuilding-1741335-1484597.png&f=1&nofb=1&ipt=5fbcaba7a790005952edbb73de0bd194929424855e2d2b6e405044358766d35c&ipo=images",
-    "capacity": 150,
-    "anfitrionas": [
-      {"id": 31, "alias": "Carolina", "nacionalidad": "Colombiana"},
-      {"id": 32, "alias": "María", "nacionalidad": "Peruana"},
-      {"id": 33, "alias": "Daniela", "nacionalidad": "Ecuatoriana"},
-      {"id": 34, "alias": "Luisa", "nacionalidad": "Boliviana"},
-      {"id": 35, "alias": "Mónica", "nacionalidad": "Chilena"}, 
-      {"id": 36, "alias": "Laura", "nacionalidad": "Argentina"},
-      {"id": 37, "alias": "Sofía", "nacionalidad": "Brasileña"},
-      {"id": 38, "alias": "Jazmín", "nacionalidad": "Salvadoreña"},
-      {"id": 39, "alias": "Michelle", "nacionalidad": "Cubana"},
-      {"id": 40, "alias": "Gabriela", "nacionalidad": "Mexicana"}
-    ]
-  },
-  {
-    "id": 5,
-    "name": "El Trocadero",
-    "location": "789 Beach Rd, Los Angeles, CA",
-    "description": "Intimate cocktail lounge with dance floor, full bar menu and weekly DJ events.",
-    "image_link" : "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.iconscout.com%2Ficon%2Ffree%2Fpng-256%2Fbuilding-1741335-1484597.png&f=1&nofb=1&ipt=5fbcaba7a790005952edbb73de0bd194929424855e2d2b6e405044358766d35c&ipo=images",
-    "capacity": 150,
-    "anfitrionas": [
-      {"id": 41, "alias": "Tatiana", "nacionalidad": "Boliviana"},
-      {"id": 42, "alias": "Stephanie", "nacionalidad": "Venezolana"},  
-      {"id": 43, "alias": "Andrea", "nacionalidad": "Panameña"},
-      {"id": 44, "alias": "Valentina", "nacionalidad": "Ecuatoriana"},
-      {"id": 45, "alias": "Victoria", "nacionalidad": "Colombiana"},
-      {"id": 46, "alias": "Elisa", "nacionalidad": "Argentina"},
-      {"id": 47, "alias": "Patricia", "nacionalidad": "Brasileña"},
-      {"id": 48, "alias": "Julieta", "nacionalidad": "Peruana"},
-      {"id": 49, "alias": "Monse", "nacionalidad": "Cubana"},
-      {"id": 50, "alias": "Karina", "nacionalidad": "Chilena"}
-    ]
-  },
-  {
-    "id": 6,
-    "name": "El Botecito",
-    "location": "789 Beach Rd, Los Angeles, CA",
-    "description": "Intimate cocktail lounge with dance floor, full bar menu and weekly DJ events.",
-    "image_link" : "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.iconscout.com%2Ficon%2Ffree%2Fpng-256%2Fbuilding-1741335-1484597.png&f=1&nofb=1&ipt=5fbcaba7a790005952edbb73de0bd194929424855e2d2b6e405044358766d35c&ipo=images",
-    "capacity": 150,
-    "anfitrionas": [
-      {"id": 51, "alias": "Estefanía", "nacionalidad": "Ecuatoriana"},
-      {"id": 52, "alias": "Angélica", "nacionalidad": "Venezolana"},
-      {"id": 53, "alias": "Amelia", "nacionalidad": "Argentina"},
-      {"id": 54, "alias": "Lorena", "nacionalidad": "Boliviana"},
-      {"id": 55, "alias": "Luciana", "nacionalidad": "Chilena"},  
-      {"id": 56, "alias": "Elena", "nacionalidad": "Brasileña"},
-      {"id": 57, "alias": "Renata", "nacionalidad": "Colombiana"},
-      {"id": 58, "alias": "Martina", "nacionalidad": "Mexicana"}, 
-      {"id": 59, "alias": "Cristina", "nacionalidad": "Cubana"},
-      {"id": 60, "alias": "Dana", "nacionalidad": "Salvadoreña"}
-    ]
-  }
-]
+{
+  "locales": [
+    {
+      "id": 1,
+      "name": "Sexy Geishas",
+      "location": "123 Main St, New York, NY",
+      "description": "Upscale lounge with dance music and full bar in an elegant space with VIP areas.",
+      "image_link": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.iconscout.com%2Ficon%2Ffree%2Fpng-256%2Fbuilding-1741335-1484597.png&f=1&nofb=1&ipt=5fbcaba7a790005952edbb73de0bd194929424855e2d2b6e405044358766d35c&ipo=images",
+      "capacity": 250,
+      "anfitrionas": [
+        { "id": 1, "alias": "Jennifer", "nacionalidad": "Colombiana" },
+        { "id": 2, "alias": "Alejandra", "nacionalidad": "Ecuatoriana" },
+        { "id": 3, "alias": "Karen", "nacionalidad": "Peruana" },
+        { "id": 4, "alias": "Patricia", "nacionalidad": "Peruana" },
+        { "id": 5, "alias": "Luisa", "nacionalidad": "Venezolana" },
+        { "id": 6, "alias": "Antonela", "nacionalidad": "Argentina" },
+        { "id": 7, "alias": "Daniela", "nacionalidad": "Venezolana" },
+        { "id": 8, "alias": "Carolina", "nacionalidad": "Colombiana" },
+        { "id": 9, "alias": "Laura", "nacionalidad": "Ecuatoriana" },
+        { "id": 10, "alias": "Sofia", "nacionalidad": "Brasilera" }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "La Colmena",
+      "location": "456 Park Ave, Miami, FL",
+      "description": "Hip hop club with resident and guest DJs spinning latest hits. Casual atmosphere.",
+      "image_link": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.iconscout.com%2Ficon%2Ffree%2Fpng-256%2Fbuilding-1741335-1484597.png&f=1&nofb=1&ipt=5fbcaba7a790005952edbb73de0bd194929424855e2d2b6e405044358766d35c&ipo=images",
+      "capacity": 350,
+      "anfitrionas": [
+        { "id": 11, "alias": "Valentina", "nacionalidad": "Mexicana" },
+        { "id": 12, "alias": "Gabriela", "nacionalidad": "Mexicana" },
+        { "id": 13, "alias": "Michelle", "nacionalidad": "Colombiana" },
+        { "id": 14, "alias": "Elisa", "nacionalidad": "Peruana" },
+        { "id": 15, "alias": "Monica", "nacionalidad": "Ecuatoriana" },
+        { "id": 16, "alias": "Daniella", "nacionalidad": "Brasilera" },
+        { "id": 17, "alias": "Juliana", "nacionalidad": "Argentina" },
+        { "id": 18, "alias": "Andrea", "nacionalidad": "Venezolana" },
+        { "id": 19, "alias": "Cristina", "nacionalidad": "Peruana" },
+        { "id": 20, "alias": "Paola", "nacionalidad": "Peruana" }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Molino Rojo",
+      "location": "789 Beach Rd, Los Angeles, CA",
+      "description": "Intimate cocktail lounge with dance floor, full bar menu and weekly DJ events.",
+      "image_link": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.iconscout.com%2Ficon%2Ffree%2Fpng-256%2Fbuilding-1741335-1484597.png&f=1&nofb=1&ipt=5fbcaba7a790005952edbb73de0bd194929424855e2d2b6e405044358766d35c&ipo=images",
+      "capacity": 150,
+      "anfitrionas": [
+        { "id": 21, "alias": "Juana", "nacionalidad": "Ecuatoriana" },
+        { "id": 22, "alias": "Lucía", "nacionalidad": "Colombiana" },
+        { "id": 23, "alias": "Susana", "nacionalidad": "Argentina" },
+        { "id": 24, "alias": "Daniella", "nacionalidad": "Brasileña" },
+        { "id": 25, "alias": "Monserrat", "nacionalidad": "Peruana" },
+        { "id": 26, "alias": "Cindy", "nacionalidad": "Ecuatoriana" },
+        { "id": 27, "alias": "Victoria", "nacionalidad": "Venezolana" },
+        { "id": 28, "alias": "Luisa", "nacionalidad": "Colombiana" },
+        { "id": 29, "alias": "Camila", "nacionalidad": "Peruana" },
+        { "id": 30, "alias": "Carmen", "nacionalidad": "Ecuatoriana" }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Las Sirenas",
+      "location": "789 Beach Rd, Los Angeles, CA",
+      "description": "Intimate cocktail lounge with dance floor, full bar menu and weekly DJ events.",
+      "image_link": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.iconscout.com%2Ficon%2Ffree%2Fpng-256%2Fbuilding-1741335-1484597.png&f=1&nofb=1&ipt=5fbcaba7a790005952edbb73de0bd194929424855e2d2b6e405044358766d35c&ipo=images",
+      "capacity": 150,
+      "anfitrionas": [
+        { "id": 31, "alias": "Carolina", "nacionalidad": "Colombiana" },
+        { "id": 32, "alias": "María", "nacionalidad": "Peruana" },
+        { "id": 33, "alias": "Daniela", "nacionalidad": "Ecuatoriana" },
+        { "id": 34, "alias": "Luisa", "nacionalidad": "Boliviana" },
+        { "id": 35, "alias": "Mónica", "nacionalidad": "Chilena" },
+        { "id": 36, "alias": "Laura", "nacionalidad": "Argentina" },
+        { "id": 37, "alias": "Sofía", "nacionalidad": "Brasileña" },
+        { "id": 38, "alias": "Jazmín", "nacionalidad": "Salvadoreña" },
+        { "id": 39, "alias": "Michelle", "nacionalidad": "Cubana" },
+        { "id": 40, "alias": "Gabriela", "nacionalidad": "Mexicana" }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "El Trocadero",
+      "location": "789 Beach Rd, Los Angeles, CA",
+      "description": "Intimate cocktail lounge with dance floor, full bar menu and weekly DJ events.",
+      "image_link": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.iconscout.com%2Ficon%2Ffree%2Fpng-256%2Fbuilding-1741335-1484597.png&f=1&nofb=1&ipt=5fbcaba7a790005952edbb73de0bd194929424855e2d2b6e405044358766d35c&ipo=images",
+      "capacity": 150,
+      "anfitrionas": [
+        { "id": 41, "alias": "Tatiana", "nacionalidad": "Boliviana" },
+        { "id": 42, "alias": "Stephanie", "nacionalidad": "Venezolana" },
+        { "id": 43, "alias": "Andrea", "nacionalidad": "Panameña" },
+        { "id": 44, "alias": "Valentina", "nacionalidad": "Ecuatoriana" },
+        { "id": 45, "alias": "Victoria", "nacionalidad": "Colombiana" },
+        { "id": 46, "alias": "Elisa", "nacionalidad": "Argentina" },
+        { "id": 47, "alias": "Patricia", "nacionalidad": "Brasileña" },
+        { "id": 48, "alias": "Julieta", "nacionalidad": "Peruana" },
+        { "id": 49, "alias": "Monse", "nacionalidad": "Cubana" },
+        { "id": 50, "alias": "Karina", "nacionalidad": "Chilena" }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "El Botecito",
+      "location": "789 Beach Rd, Los Angeles, CA",
+      "description": "Intimate cocktail lounge with dance floor, full bar menu and weekly DJ events.",
+      "image_link": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.iconscout.com%2Ficon%2Ffree%2Fpng-256%2Fbuilding-1741335-1484597.png&f=1&nofb=1&ipt=5fbcaba7a790005952edbb73de0bd194929424855e2d2b6e405044358766d35c&ipo=images",
+      "capacity": 150,
+      "anfitrionas": [
+        { "id": 51, "alias": "Estefanía", "nacionalidad": "Ecuatoriana" },
+        { "id": 52, "alias": "Angélica", "nacionalidad": "Venezolana" },
+        { "id": 53, "alias": "Amelia", "nacionalidad": "Argentina" },
+        { "id": 54, "alias": "Lorena", "nacionalidad": "Boliviana" },
+        { "id": 55, "alias": "Luciana", "nacionalidad": "Chilena" },
+        { "id": 56, "alias": "Elena", "nacionalidad": "Brasileña" },
+        { "id": 57, "alias": "Renata", "nacionalidad": "Colombiana" },
+        { "id": 58, "alias": "Martina", "nacionalidad": "Mexicana" },
+        { "id": 59, "alias": "Cristina", "nacionalidad": "Cubana" },
+        { "id": 60, "alias": "Dana", "nacionalidad": "Salvadoreña" }
+      ]
+    }
+  ]
+}

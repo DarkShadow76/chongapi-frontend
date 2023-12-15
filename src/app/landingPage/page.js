@@ -5,7 +5,7 @@ const PaginaPrincipal = () => {
 
   return (
     <Container>
-      <h4>ChongApi: Te damos las reales fijas</h4>
+      <h4>Landing Page</h4>
     </Container>
   )
 }

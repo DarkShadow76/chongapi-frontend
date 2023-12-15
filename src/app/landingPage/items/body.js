@@ -3,13 +3,14 @@ import Header from '@/components/Header';
 import Body from '@/components/Body';
 
 const Body = () => {
-    return(
-        <><Header />
-        <Body>
+  return (
+    <><Header />
+      <Body>
+        {children}
+      </Body>
+    </>
 
-        </Body></>
-        
-    )
+  )
 }
 
 export default Body;

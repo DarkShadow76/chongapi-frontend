@@ -1,7 +1,7 @@
 "use client"
 import { Container } from "react-bootstrap"
 
-const Alineacion = ({ params }) => {
+const listaAnfitrionas = ({ params }) => {
 
   return <Container>
     <h4>Descripcion</h4>
@@ -12,4 +12,4 @@ const Alineacion = ({ params }) => {
   </Container>
 }
 
-export default Alineacion
+export default listaAnfitrionas

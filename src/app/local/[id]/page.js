@@ -1,7 +1,7 @@
 "use client"
 import { Container } from "react-bootstrap"
 
-const Page = ({ params }) => {
+const Alineacion = ({ params }) => {
 
   return <Container>
     <h4>Descripcion</h4>
@@ -12,4 +12,4 @@ const Page = ({ params }) => {
   </Container>
 }
 
-export default Page
+export default Alineacion

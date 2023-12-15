@@ -2,7 +2,7 @@
 import Entitys from "@/components/Entitys"
 import { Container } from "react-bootstrap"
 
-const Page = () => {
+const listaClubs = () => {
 
   return <Container>
     <h2>Lista de Nightclubs</h2>
@@ -10,4 +10,4 @@ const Page = () => {
   </Container>
 }
 
-export default Page
+export default listaClubs

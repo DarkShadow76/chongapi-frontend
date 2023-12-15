@@ -1,13 +1,11 @@
 "use client"
-import Entitys from "@/components/Entitys"
 import { Container } from "react-bootstrap"
 
-const Page = () => {
+const PaginaPrincipal = () => {
 
   return <Container>
-    <h4>ChongApi</h4>
-    <Entitys />
+    <h4>ChongApi: Te damos las reales fijas</h4>
   </Container>
 }
 
-export default Page
+export default PaginaPrincipal

@@ -5,26 +5,30 @@ import data from '@/json/locations.json'
 
 const Anfitrionas = (props) => {
 
-  // Esto No funciona Solucionar a la brevedad
-  const id = props.id
+  const id = props.id-1
+
+  //var json = JSON.parse(data);
 
   /** No recibe la id correctamente */
-  const local = data['locales'].find((locales) => locales.id === id);
-  const localtest = data['locales'][1].alias
+  //const local = data['locales'].find((locales) => locales.id === id);
+  const localtest = data['locales'][`${id}`]['anfitrionas']
 
+  /*
   if (!local) {
-    return <div>Club no encontrado: {props.id} {localtest}</div>;
+    return <div>Club no encontrado: {props.id}</div>;
   }
 
-  const anfitrionas = club['anfitrionas'];
-  //
+  const anfitrionas = local['anfitrionas'];
+  */
 
   return (
     <Container>
       <Row>
-        {anfitrionas.map(item => (
-          <Col xs={12} md={12} key={item.id}>
-            <p>{item.alias}</p>
+        {localtest.map(item => (
+          <Col xs={12} md={6} key={item.id}>
+            <h5><strong>{item.alias}</strong></h5>
+            <h6>{item.nacionalidad} </h6>
+            <h6>Cuarto: {item.cuarto}</h6>
           </Col>
         ))}
       </Row>

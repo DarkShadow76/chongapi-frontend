@@ -8,16 +8,16 @@
       "image_link": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.iconscout.com%2Ficon%2Ffree%2Fpng-256%2Fbuilding-1741335-1484597.png&f=1&nofb=1&ipt=5fbcaba7a790005952edbb73de0bd194929424855e2d2b6e405044358766d35c&ipo=images",
       "capacity": 250,
       "anfitrionas": [
-        { "id": 1, "alias": "Jennifer", "nacionalidad": "Colombiana" },
-        { "id": 2, "alias": "Alejandra", "nacionalidad": "Ecuatoriana" },
-        { "id": 3, "alias": "Karen", "nacionalidad": "Peruana" },
-        { "id": 4, "alias": "Patricia", "nacionalidad": "Peruana" },
-        { "id": 5, "alias": "Luisa", "nacionalidad": "Venezolana" },
-        { "id": 6, "alias": "Antonela", "nacionalidad": "Argentina" },
-        { "id": 7, "alias": "Daniela", "nacionalidad": "Venezolana" },
-        { "id": 8, "alias": "Carolina", "nacionalidad": "Colombiana" },
-        { "id": 9, "alias": "Laura", "nacionalidad": "Ecuatoriana" },
-        { "id": 10, "alias": "Sofia", "nacionalidad": "Brasilera" }
+        { "id": 1, "alias": "Jennifer", "nacionalidad": "Colombiana", "cuarto": "10"},
+        { "id": 2, "alias": "Alejandra", "nacionalidad": "Ecuatoriana", "cuarto": "11"},
+        { "id": 3, "alias": "Karen", "nacionalidad": "Peruana", "cuarto": "16"},
+        { "id": 4, "alias": "Patricia", "nacionalidad": "Peruana", "cuarto": "45"},
+        { "id": 5, "alias": "Luisa", "nacionalidad": "Venezolana", "cuarto": "13"},
+        { "id": 6, "alias": "Antonela", "nacionalidad": "Argentina", "cuarto": "5"},
+        { "id": 7, "alias": "Daniela", "nacionalidad": "Venezolana", "cuarto": "56"},
+        { "id": 8, "alias": "Carolina", "nacionalidad": "Colombiana", "cuarto": "33"},
+        { "id": 9, "alias": "Laura", "nacionalidad": "Ecuatoriana", "cuarto": "20"},
+        { "id": 10, "alias": "Sofia", "nacionalidad": "Brasilera", "cuarto": "15"}
       ]
     },
     {
@@ -28,16 +28,16 @@
       "image_link": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.iconscout.com%2Ficon%2Ffree%2Fpng-256%2Fbuilding-1741335-1484597.png&f=1&nofb=1&ipt=5fbcaba7a790005952edbb73de0bd194929424855e2d2b6e405044358766d35c&ipo=images",
       "capacity": 350,
       "anfitrionas": [
-        { "id": 11, "alias": "Valentina", "nacionalidad": "Mexicana" },
-        { "id": 12, "alias": "Gabriela", "nacionalidad": "Mexicana" },
-        { "id": 13, "alias": "Michelle", "nacionalidad": "Colombiana" },
-        { "id": 14, "alias": "Elisa", "nacionalidad": "Peruana" },
-        { "id": 15, "alias": "Monica", "nacionalidad": "Ecuatoriana" },
-        { "id": 16, "alias": "Daniella", "nacionalidad": "Brasilera" },
-        { "id": 17, "alias": "Juliana", "nacionalidad": "Argentina" },
-        { "id": 18, "alias": "Andrea", "nacionalidad": "Venezolana" },
-        { "id": 19, "alias": "Cristina", "nacionalidad": "Peruana" },
-        { "id": 20, "alias": "Paola", "nacionalidad": "Peruana" }
+        { "id": 11, "alias": "Valentina", "nacionalidad": "Mexicana", "cuarto": "3"},
+        { "id": 12, "alias": "Gabriela", "nacionalidad": "Mexicana", "cuarto": "19"},
+        { "id": 13, "alias": "Michelle", "nacionalidad": "Colombiana", "cuarto": "14"},
+        { "id": 14, "alias": "Elisa", "nacionalidad": "Peruana", "cuarto": "70"},
+        { "id": 15, "alias": "Monica", "nacionalidad": "Ecuatoriana", "cuarto": "9"},
+        { "id": 16, "alias": "Daniella", "nacionalidad": "Brasilera", "cuarto": "37"},
+        { "id": 17, "alias": "Juliana", "nacionalidad": "Argentina", "cuarto": "28"},
+        { "id": 18, "alias": "Andrea", "nacionalidad": "Venezolana", "cuarto": "48"},
+        { "id": 19, "alias": "Cristina", "nacionalidad": "Peruana", "cuarto": "39"},
+        { "id": 20, "alias": "Paola", "nacionalidad": "Peruana", "cuarto": "55"}
       ]
     },
     {
@@ -48,16 +48,16 @@
       "image_link": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.iconscout.com%2Ficon%2Ffree%2Fpng-256%2Fbuilding-1741335-1484597.png&f=1&nofb=1&ipt=5fbcaba7a790005952edbb73de0bd194929424855e2d2b6e405044358766d35c&ipo=images",
       "capacity": 150,
       "anfitrionas": [
-        { "id": 21, "alias": "Juana", "nacionalidad": "Ecuatoriana" },
-        { "id": 22, "alias": "Lucía", "nacionalidad": "Colombiana" },
-        { "id": 23, "alias": "Susana", "nacionalidad": "Argentina" },
-        { "id": 24, "alias": "Daniella", "nacionalidad": "Brasileña" },
-        { "id": 25, "alias": "Monserrat", "nacionalidad": "Peruana" },
-        { "id": 26, "alias": "Cindy", "nacionalidad": "Ecuatoriana" },
-        { "id": 27, "alias": "Victoria", "nacionalidad": "Venezolana" },
-        { "id": 28, "alias": "Luisa", "nacionalidad": "Colombiana" },
-        { "id": 29, "alias": "Camila", "nacionalidad": "Peruana" },
-        { "id": 30, "alias": "Carmen", "nacionalidad": "Ecuatoriana" }
+        { "id": 21, "alias": "Juana", "nacionalidad": "Ecuatoriana", "cuarto": "22"},
+        { "id": 22, "alias": "Lucía", "nacionalidad": "Colombiana", "cuarto": "17"},
+        { "id": 23, "alias": "Susana", "nacionalidad": "Argentina", "cuarto": "11"},
+        { "id": 24, "alias": "Daniella", "nacionalidad": "Brasileña", "cuarto": "33"},
+        { "id": 25, "alias": "Monserrat", "nacionalidad": "Peruana", "cuarto": "18"},
+        { "id": 26, "alias": "Cindy", "nacionalidad": "Ecuatoriana", "cuarto": "16"},
+        { "id": 27, "alias": "Victoria", "nacionalidad": "Venezolana", "cuarto": "37"},
+        { "id": 28, "alias": "Luisa", "nacionalidad": "Colombiana", "cuarto": "26"},
+        { "id": 29, "alias": "Camila", "nacionalidad": "Peruana", "cuarto": "32"},
+        { "id": 30, "alias": "Carmen", "nacionalidad": "Ecuatoriana", "cuarto": "51"}
       ]
     },
     {
@@ -68,16 +68,16 @@
       "image_link": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.iconscout.com%2Ficon%2Ffree%2Fpng-256%2Fbuilding-1741335-1484597.png&f=1&nofb=1&ipt=5fbcaba7a790005952edbb73de0bd194929424855e2d2b6e405044358766d35c&ipo=images",
       "capacity": 150,
       "anfitrionas": [
-        { "id": 31, "alias": "Carolina", "nacionalidad": "Colombiana" },
-        { "id": 32, "alias": "María", "nacionalidad": "Peruana" },
-        { "id": 33, "alias": "Daniela", "nacionalidad": "Ecuatoriana" },
-        { "id": 34, "alias": "Luisa", "nacionalidad": "Boliviana" },
-        { "id": 35, "alias": "Mónica", "nacionalidad": "Chilena" },
-        { "id": 36, "alias": "Laura", "nacionalidad": "Argentina" },
-        { "id": 37, "alias": "Sofía", "nacionalidad": "Brasileña" },
-        { "id": 38, "alias": "Jazmín", "nacionalidad": "Salvadoreña" },
-        { "id": 39, "alias": "Michelle", "nacionalidad": "Cubana" },
-        { "id": 40, "alias": "Gabriela", "nacionalidad": "Mexicana" }
+        { "id": 31, "alias": "Carolina", "nacionalidad": "Colombiana", "cuarto": "61"},
+        { "id": 32, "alias": "María", "nacionalidad": "Peruana", "cuarto": "53"},
+        { "id": 33, "alias": "Daniela", "nacionalidad": "Ecuatoriana", "cuarto": "28"},
+        { "id": 34, "alias": "Luisa", "nacionalidad": "Boliviana", "cuarto": "45"},
+        { "id": 35, "alias": "Mónica", "nacionalidad": "Chilena", "cuarto": "46"},
+        { "id": 36, "alias": "Laura", "nacionalidad": "Argentina", "cuarto": "52"},
+        { "id": 37, "alias": "Sofía", "nacionalidad": "Brasileña", "cuarto": "17"},
+        { "id": 38, "alias": "Jazmín", "nacionalidad": "Salvadoreña", "cuarto": "19"},
+        { "id": 39, "alias": "Michelle", "nacionalidad": "Cubana", "cuarto": "36"},
+        { "id": 40, "alias": "Gabriela", "nacionalidad": "Mexicana", "cuarto": "31"}
       ]
     },
     {
@@ -88,16 +88,16 @@
       "image_link": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.iconscout.com%2Ficon%2Ffree%2Fpng-256%2Fbuilding-1741335-1484597.png&f=1&nofb=1&ipt=5fbcaba7a790005952edbb73de0bd194929424855e2d2b6e405044358766d35c&ipo=images",
       "capacity": 150,
       "anfitrionas": [
-        { "id": 41, "alias": "Tatiana", "nacionalidad": "Boliviana" },
-        { "id": 42, "alias": "Stephanie", "nacionalidad": "Venezolana" },
-        { "id": 43, "alias": "Andrea", "nacionalidad": "Panameña" },
-        { "id": 44, "alias": "Valentina", "nacionalidad": "Ecuatoriana" },
-        { "id": 45, "alias": "Victoria", "nacionalidad": "Colombiana" },
-        { "id": 46, "alias": "Elisa", "nacionalidad": "Argentina" },
-        { "id": 47, "alias": "Patricia", "nacionalidad": "Brasileña" },
-        { "id": 48, "alias": "Julieta", "nacionalidad": "Peruana" },
-        { "id": 49, "alias": "Monse", "nacionalidad": "Cubana" },
-        { "id": 50, "alias": "Karina", "nacionalidad": "Chilena" }
+        { "id": 41, "alias": "Tatiana", "nacionalidad": "Boliviana", "cuarto": "24"},
+        { "id": 42, "alias": "Stephanie", "nacionalidad": "Venezolana", "cuarto": "21"},
+        { "id": 43, "alias": "Andrea", "nacionalidad": "Panameña", "cuarto": "47"},
+        { "id": 44, "alias": "Valentina", "nacionalidad": "Ecuatoriana", "cuarto": "51"},
+        { "id": 45, "alias": "Victoria", "nacionalidad": "Colombiana", "cuarto": "49"},
+        { "id": 46, "alias": "Elisa", "nacionalidad": "Argentina", "cuarto": "25"},
+        { "id": 47, "alias": "Patricia", "nacionalidad": "Brasileña", "cuarto": "18"},
+        { "id": 48, "alias": "Julieta", "nacionalidad": "Peruana", "cuarto": "12"},
+        { "id": 49, "alias": "Monserrat", "nacionalidad": "Cubana", "cuarto": "44"},
+        { "id": 50, "alias": "Karina", "nacionalidad": "Chilena", "cuarto": "14"}
       ]
     },
     {
@@ -108,16 +108,16 @@
       "image_link": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.iconscout.com%2Ficon%2Ffree%2Fpng-256%2Fbuilding-1741335-1484597.png&f=1&nofb=1&ipt=5fbcaba7a790005952edbb73de0bd194929424855e2d2b6e405044358766d35c&ipo=images",
       "capacity": 150,
       "anfitrionas": [
-        { "id": 51, "alias": "Estefanía", "nacionalidad": "Ecuatoriana" },
-        { "id": 52, "alias": "Angélica", "nacionalidad": "Venezolana" },
-        { "id": 53, "alias": "Amelia", "nacionalidad": "Argentina" },
-        { "id": 54, "alias": "Lorena", "nacionalidad": "Boliviana" },
-        { "id": 55, "alias": "Luciana", "nacionalidad": "Chilena" },
-        { "id": 56, "alias": "Elena", "nacionalidad": "Brasileña" },
-        { "id": 57, "alias": "Renata", "nacionalidad": "Colombiana" },
-        { "id": 58, "alias": "Martina", "nacionalidad": "Mexicana" },
-        { "id": 59, "alias": "Cristina", "nacionalidad": "Cubana" },
-        { "id": 60, "alias": "Dana", "nacionalidad": "Salvadoreña" }
+        { "id": 51, "alias": "Estefanía", "nacionalidad": "Ecuatoriana", "cuarto": "56"},
+        { "id": 52, "alias": "Angélica", "nacionalidad": "Venezolana", "cuarto": "67"},
+        { "id": 53, "alias": "Amelia", "nacionalidad": "Argentina", "cuarto": "34"},
+        { "id": 54, "alias": "Lorena", "nacionalidad": "Boliviana", "cuarto": "56"},
+        { "id": 55, "alias": "Luciana", "nacionalidad": "Chilena", "cuarto": "26"},
+        { "id": 56, "alias": "Elena", "nacionalidad": "Brasileña", "cuarto": "37"},
+        { "id": 57, "alias": "Renata", "nacionalidad": "Colombiana", "cuarto": "17"},
+        { "id": 58, "alias": "Martina", "nacionalidad": "Mexicana", "cuarto": "13"},
+        { "id": 59, "alias": "Cristina", "nacionalidad": "Cubana", "cuarto": "48"},
+        { "id": 60, "alias": "Dana", "nacionalidad": "Salvadoreña", "cuarto": "10"}
       ]
     }
   ]

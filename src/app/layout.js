@@ -1,8 +1,8 @@
 //import { Montserrat } from 'next/font/google'
-//import { Nunito_Sans } from 'next/font/google'
+import { Nunito_Sans } from 'next/font/google'
 // import './globals.css'
 
-//const font = Nunito_Sans({ subsets: ['latin'], weight: ['200', '700', '500'] })
+const font = Nunito_Sans({ subsets: ['latin'], weight: ['200', '700', '500'] })
 import Footer from "@/components/Footer"
 import Header from "@/components/Header"
 
@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
       ></script>
 
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-      <body className={`antialiased`}>
+      <body className={`${font.className} antialiased`}>
         <Header />
         {children}
         <Footer />

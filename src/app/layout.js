@@ -1,6 +1,6 @@
 //import { Montserrat } from 'next/font/google'
 import { Nunito_Sans } from 'next/font/google'
-// import './globals.css'
+//import './globals.css'
 
 const font = Nunito_Sans({ subsets: ['latin'], weight: ['200', '700', '500'] })
 import Footer from "@/components/Footer"

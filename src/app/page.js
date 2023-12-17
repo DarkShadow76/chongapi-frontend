@@ -1,11 +1,12 @@
 "use client"
 import { Col, Container, Row } from "react-bootstrap"
+import Landing from "./landingPage/items/main-landing";
 
 const PaginaPrincipal = () => {
 
   return (
     <Container>
-      <h4>ChongApi: Te damos las reales fijas</h4>
+      <Landing/>
     </Container>
   )
 }

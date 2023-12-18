@@ -9,6 +9,20 @@ import Header from "@/components/Header"
 export const metadata = {
   title: 'ChongAPI',
   description: 'Still in development',
+  version: '1.0.0',
+  author: 'A. Cáceres, J. Linares',
+  license: 'MIT',
+  url: 'proximamente',
+  contact: {
+    email: '-',
+    website: 'proximamente',
+  },
+  /*
+  config: {
+    timeout: 5000,
+    maxRequests: 1000,
+  },
+  */
 }
 
 export default function RootLayout({ children }) {

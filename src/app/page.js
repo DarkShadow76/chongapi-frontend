@@ -6,7 +6,7 @@ const PaginaPrincipal = () => {
 
   return (
     <Container>
-      <Landing/>
+      <Landing />
     </Container>
   )
 }

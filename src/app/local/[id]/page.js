@@ -1,18 +1,18 @@
 "use client"
-import Anfitrionas from "@/components/Anfitrionas"
+import ListaAnfitrionas from "@/components/ListaAnfitrionas"
 import { Container } from "react-bootstrap"
 import data from '@/json/locations.json'
 
-const listaAnfitrionas = ({ params }) => {
+const Anfitrionas = ({ params }) => {
 
   return <Container>
-    <h2>{data['locales'][`${params.id-1}`]['name']}</h2>
-    <h4>Descripcion</h4>
-    <h4>Hubicacion</h4>
+    <h2>{data['locales'][`${params.id - 1}`]['name']}</h2>
+    <h4 style={{ marginTop: "1rem", marginBottom: "1rem" }}>Descripción</h4>
+    <h4 style={{ marginTop: "1rem", marginBottom: "1rem" }}>Ubicacion</h4>
     <span>Usar Api de google maps</span>
-    <h4>Alineacion de hoy</h4>
-    <Anfitrionas id={params.id} />
+    <h4 style={{ marginTop: "1rem", marginBottom: "1rem" }}>Alineación de hoy:</h4>
+    <ListaAnfitrionas id={params.id} />
   </Container>
 }
 
-export default listaAnfitrionas
+export default Anfitrionas

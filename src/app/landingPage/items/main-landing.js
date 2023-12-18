@@ -1,7 +1,6 @@
 import Header from '@/components/Header';
 import { Image, Col, Row } from 'react-bootstrap';
-import Styles from './main-landing.modules.css';
-import Imagen from '@/public/imagen.jpg';
+import Styles from '@/styles/main-landing.modules.css';
 
 const MainLandingPage = () => {
   return (

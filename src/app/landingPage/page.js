@@ -1,5 +1,5 @@
 "use client"
-import { Col, Container, Row } from "react-bootstrap"
+import { Container } from "react-bootstrap"
 
 const PaginaPrincipal = () => {
 

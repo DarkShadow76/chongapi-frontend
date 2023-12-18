@@ -1,17 +1,16 @@
+"use client"
 import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import { Card } from 'react-bootstrap';
+import { Card, Col, Row } from 'react-bootstrap';
 import Link from 'next/link';
 import data from '@/json/locations.json'
 
-const Entitys = (props) => {
+const ListaLocales = (props) => {
   return (
     <Container>
       <Row>
         {data['locales'].map(item => (
           <Col xs={12} md={4}>
-            <Card border='light' key={item.id} bg="dark" text="light" style={{ width: '18rem' }} className="mb-2">
+            <Card key={item.id} border='light' bg="dark" text="light" style={{ width: '18rem' }} className="mb-2">
               <Link href={`/local/${item.id}`}>
                 <Card.Img variant="top" src={`${item.image_link}`} />
               </Link>
@@ -29,4 +28,4 @@ const Entitys = (props) => {
   );
 }
 
-export default Entitys
+export default ListaLocales

@@ -1,13 +1,13 @@
 "use client"
-import Entitys from "@/components/Entitys"
+import ListaLocales from "@/components/ListaLocales"
 import { Container } from "react-bootstrap"
 
-const listaClubs = () => {
+const locales = () => {
 
   return <Container>
     <h2>Lista de Nightclubs</h2>
-    <Entitys />
+    <ListaLocales />
   </Container>
 }
 
-export default listaClubs
+export default locales

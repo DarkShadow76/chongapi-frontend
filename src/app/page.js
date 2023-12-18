@@ -1,6 +1,6 @@
 "use client"
-import { Col, Container, Row } from "react-bootstrap"
-import Landing from "./landingPage/items/main-landing";
+import { Container } from "react-bootstrap"
+import Landing from "@/app/landingPage/items/main-landing";
 
 const PaginaPrincipal = () => {
 

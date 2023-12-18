@@ -1,14 +1,14 @@
 "use client"
 import { Container, Row, Col, Nav, Navbar } from 'react-bootstrap';
 
-const Lateral = (props) => {
+const LateralBar = (props) => {
 
   return (
-    <Container>
+    <Container fluid>
       <Row>
-        <Col sm={8}>
-          {/* Barra lateral */}
-          <Navbar bg="dark" variant='dark' expand="sm" className="flex-column">
+        <Col sm={12}>
+          <Navbar style={{ borderRadius: "1rem" }} bg="dark" variant='dark' expand="sm" className="flex-column">
+            <Navbar.Brand href="/local">Locales</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="flex-column">
@@ -24,4 +24,4 @@ const Lateral = (props) => {
   );
 }
 
-export default Lateral
+export default LateralBar

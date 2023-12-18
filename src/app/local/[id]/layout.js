@@ -1,6 +1,4 @@
-import Footer from "@/components/Footer"
-import Header from "@/components/Header"
-import Lateral from "@/components/Lateral"
+import LateralBar from "@/components/LateralBar"
 import { Col, Row } from "react-bootstrap"
 
 export default function layout({ children }) {
@@ -8,7 +6,7 @@ export default function layout({ children }) {
     <>
       <Row>
         <Col xs sm={2}>
-          <Lateral />
+          <LateralBar />
         </Col>
         <Col xs sm={8}>
           {children}

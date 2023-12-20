@@ -1,20 +1,20 @@
-import { Nunito_Sans } from 'next/font/google';
-import NavBar from './ui/common/nav-bar';
+import { Nunito_Sans } from "next/font/google";
+import NavBar from "./ui/common/nav-bar";
 import Footer from "@/app/ui/common/Footer";
-import style from './ui/globals.css';
+import style from "./ui/globals.css";
 
-const font = Nunito_Sans({ subsets: ['latin'], weight: ['200', '700', '500'] })
+const font = Nunito_Sans({ subsets: ["latin"], weight: ["200", "700", "500"] });
 
 export const metadata = {
-  title: 'ChongAPI',
-  description: 'Still in development',
-  version: '1.0.0', 
-  author: 'A. Cáceres, iRra',
-  license: 'MIT',
-  url: 'proximamente',
+  title: "ChongAPI",
+  description: "Still in development",
+  version: "1.0.0",
+  author: "A. Cáceres, iRra",
+  license: "MIT",
+  url: "proximamente",
   contact: {
-    email: '-',
-    website: 'proximamente',
+    email: "-",
+    website: "proximamente",
   },
   /*
   config: {
@@ -22,7 +22,7 @@ export const metadata = {
     maxRequests: 1000,
   },
   */
-}
+};
 
 export default function RootLayout({ children }) {
   return (
@@ -38,12 +38,15 @@ export default function RootLayout({ children }) {
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
         crossorigin="anonymous"
       ></script>
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      />
       <body className={style.body}>
-        <NavBar/>
+        <NavBar />
         {children}
-        <Footer/>
+        <Footer />
       </body>
-    </html >
-  )
+    </html>
+  );
 }

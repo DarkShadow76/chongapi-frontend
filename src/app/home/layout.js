@@ -1,7 +1,7 @@
 export default function LayoutHome({ children }) {
     return (
-        <div>
+        <main>
             {children}
-        </div>
+        </main>
     )
 }

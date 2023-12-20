@@ -114,10 +114,17 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px;
+  
 }
 
 main {
   content: auto;
 }
 
+header {
+  padding: 36px 0;
+}
+
+footer {
+  padding: 36px 0;
+}

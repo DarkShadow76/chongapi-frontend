@@ -2,8 +2,8 @@ import { Children } from "react";
 
 export default function LayoutReview() {
     return (
-        <div>
+        <main>
             Este es el layout de Review!
-        </div>
+        </main>
     )
 }

@@ -1,12 +1,18 @@
-"use client"
-
-const PaginaPrincipal = () => {
-
+export default function Page() {
   return (
-    <main>
-      Hola
+    <main className={`padding-top:30px;`}>
+      <div>
+        <p>Hola mundo</p>
+      </div>
+      <div>
+        <p>Hola mundo</p>
+      </div>
+      <div>
+        <p>Hola mundo</p>
+      </div>
+      <div>
+        <p>Hola mundo</p>
+      </div>
     </main>
   )
 }
-
-export default PaginaPrincipal

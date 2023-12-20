@@ -11,7 +11,7 @@ export default function NavBar() {
   };
 
   return (
-    <div>
+    <header>
       <Navbar
       expand="sm"
       className={`bg-body-tertiary Navbar ${
@@ -49,6 +49,6 @@ export default function NavBar() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
-    </div>
+    </header>
   );
 }

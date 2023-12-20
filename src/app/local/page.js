@@ -1,5 +1,5 @@
 "use client"
-import ListaLocales from "@/components/ListaLocales"
+import ListaLocales from "@/app/ui/common/ListaLocales"
 import { Container } from "react-bootstrap"
 
 const locales = () => {

@@ -1,4 +1,4 @@
-import LateralBar from "@/components/LateralBar"
+import LateralBar from "@/app/ui/common/LateralBar"
 import { Col, Row } from "react-bootstrap"
 
 export default function layout({ children }) {

@@ -1,13 +1,18 @@
-"use client"
-import { Container, Row, Col, Nav, Navbar } from 'react-bootstrap';
+"use client";
+import { Container, Row, Col, Nav, Navbar } from "react-bootstrap";
 
 const LateralBar = (props) => {
-
   return (
     <Container fluid>
       <Row>
         <Col sm={12}>
-          <Navbar style={{ borderRadius: "1rem" }} bg="dark" variant='dark' expand="sm" className="flex-column">
+          <Navbar
+            style={{ borderRadius: "1rem" }}
+            bg="dark"
+            variant="dark"
+            expand="sm"
+            className="flex-column"
+          >
             <Navbar.Brand href="/local">Locales</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
@@ -22,6 +27,6 @@ const LateralBar = (props) => {
       </Row>
     </Container>
   );
-}
+};
 
-export default LateralBar
+export default LateralBar;

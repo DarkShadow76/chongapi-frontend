@@ -1,5 +1,5 @@
 "use client"
-import ListaAnfitrionas from "@/components/ListaAnfitrionas"
+import ListaAnfitrionas from "@/app/ui/common/ListaAnfitrionas"
 import { Container } from "react-bootstrap"
 import data from '@/json/locations.json'
 

@@ -1,16 +1,14 @@
-//import { Montserrat } from 'next/font/google'
 import { Nunito_Sans } from 'next/font/google'
-//import './globals.css'
+import NavBar from './ui/common/nav-bar';
+import Footer from "@/app/ui/common/Footer"
 
 const font = Nunito_Sans({ subsets: ['latin'], weight: ['200', '700', '500'] })
-import Footer from "@/components/Footer"
-import Header from "@/components/Header"
 
 export const metadata = {
   title: 'ChongAPI',
   description: 'Still in development',
   version: '1.0.0',
-  author: 'A. Cáceres, J. Linares',
+  author: 'A. Cáceres, iRra',
   license: 'MIT',
   url: 'proximamente',
   contact: {
@@ -39,10 +37,9 @@ export default function RootLayout({ children }) {
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
         crossorigin="anonymous"
       ></script>
-
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-      <body className={`${font.className} antialiased`}>
-        <Header />
+      <body className={`${font.className} antialiased`} >
+        <NavBar/>
         {children}
         <Footer />
       </body>

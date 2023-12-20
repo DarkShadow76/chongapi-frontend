@@ -1,7 +1,7 @@
-export default function LayoutHome() {
+export default function LayoutHome({ children }) {
     return (
         <div>
-            Este es el layout de home!
+            {children}
         </div>
     )
 }

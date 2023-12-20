@@ -8,7 +8,7 @@ const font = Nunito_Sans({ subsets: ['latin'], weight: ['200', '700', '500'] })
 export const metadata = {
   title: 'ChongAPI',
   description: 'Still in development',
-  version: '1.0.0',
+  version: '1.0.0', 
   author: 'A. Cáceres, iRra',
   license: 'MIT',
   url: 'proximamente',

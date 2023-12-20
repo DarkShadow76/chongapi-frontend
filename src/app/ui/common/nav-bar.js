@@ -11,7 +11,7 @@ export default function NavBar() {
   };
 
   return (
-    <header>
+    <header style={{marginBottom:"3rem"}}>
       <Navbar
       expand="sm"
       className={`bg-body-tertiary Navbar ${
@@ -26,7 +26,7 @@ export default function NavBar() {
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav className="me-auto my-2 my-lg-0" navbarScroll>
-            <Nav.Link href="/" onClick={() => handleNavClick("home")}>
+            <Nav.Link href="/home" onClick={() => handleNavClick("home")}>
               Home
             </Nav.Link>
             <Nav.Link href="/about" onClick={() => handleNavClick("about")}>

@@ -1,15 +1,8 @@
+import style from './ui/globals.css';
+
 export default function Page() {
   return (
-    <main>
-      <div>
-        <p>Hola mundo</p>
-      </div>
-      <div>
-        <p>Hola mundo</p>
-      </div>
-      <div>
-        <p>Hola mundo</p>
-      </div>
+    <main className={style.main}>
       <div>
         <p>Hola mundo</p>
       </div>

@@ -15,13 +15,19 @@ export default function Page() {
         {/* Insertar imagen en formato <Image/> */}
         <div className={style.containerGrid}>
           <div>
-            {/* Beneficio 1 */}
+            {/* Beneficio 1 Imagen*/}
+            <h2>Conocelas sin compromiso</h2>
+            <p>Te invitamos a explorar todas las opciones disponibles antes de tomar una decisión.</p>
           </div>
           <div>
             {/* Beneficio 2 */}
+            <h2>Horarios actualizados 24/7</h2>
+            <p>Disfruta de la flexibilidad de acceder a nuestros servicios en cualquier momento los 7 días de la semana.</p>
           </div>
           <div>
             {/* Beneficio 3 */}
+            <h2>Seguridad y discreción</h2>
+            <p>Tu confianza es nuestra prioridad, y trabajamos diligentemente para ofrecerte un entorno seguro, confidencial y transparente.</p>
           </div>
         </div>
       </section>

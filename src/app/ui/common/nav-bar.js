@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import { Nav, Navbar, Container, NavDropdown } from "react-bootstrap";
+import { Nav, Navbar, Container, NavDropdown, Button } from "react-bootstrap";
 
 export default function NavBar() {
   const [activeSection, setActiveSection] = useState("home");
@@ -14,9 +14,8 @@ export default function NavBar() {
     <header>
       <Navbar
         expand="sm"
-        className={`bg-body-tertiary Navbar ${
-          activeSection === "home" ? "home-active" : ""
-        }`}
+        className={`bg-body-tertiary Navbar ${activeSection === "home" ? "home-active" : ""
+          }`}
         bg="dark"
         variant="dark"
         fixed="top"
@@ -50,6 +49,16 @@ export default function NavBar() {
                 <NavDropdown.Item href="#action5">YOLO</NavDropdown.Item>
               </NavDropdown>
             </Nav>
+
+            <Button href="/login/signin" style={{ alignContent: "right" }} variant="outline-primary">
+              Sig Up
+            </Button>{' '}
+            <Button href="/login" style={{
+              alignContent: "right",
+              marginLeft: "1%"
+            }} variant="outline-success">
+              Log in
+            </Button>{' '}
           </Navbar.Collapse>
         </Container>
       </Navbar>

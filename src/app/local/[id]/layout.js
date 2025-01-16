@@ -1,17 +1,13 @@
 import LateralBar from "@/app/ui/common/LateralBar";
-import { Col, Row } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 
 export default function layout({ children }) {
   return (
-    <>
-      <Row>
-        <Col xs sm={2}>
-          <LateralBar />
-        </Col>
-        <Col xs sm={8}>
+    <Container className="album py-5 bg-light">
+      <Row></Row>
+        <Col xs sm={10}>
           {children}
         </Col>
-      </Row>
-    </>
+    </Container>
   );
 }

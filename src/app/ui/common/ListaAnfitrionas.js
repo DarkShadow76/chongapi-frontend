@@ -12,7 +12,7 @@ const ListaAnfitrionas = (props) => {
     <Container>
       <Row>
         {localtest.map(item => (
-          <Col xs={12} md={6} key={item.id} lg>
+          <Col xs={12} md={10} sm={8} key={item.id} lg>
             <Card key={item.id} border='light' bg="dark" text="light" style={{ width: '18rem' }} className="mb-2">
               <Card.Body>
                 <Card.Title><h5><strong>{item.alias}</strong></h5></Card.Title>
